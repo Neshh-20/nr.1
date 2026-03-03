@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="theme-color" content="#ff4fa0"/>
+  <title>Danke – Le Petit Café</title>
+  <meta name="description" content="Le Petit Café Wiesbaden – Petit, aber mit viel Charakter. Hausgemachte Drinks, Brunch & süße Delights."/>
+  <link rel="stylesheet" href="assets/css/style.css"/>
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="navbar">
+      <a class="brand" href="index.html" aria-label="Le Petit Café Startseite">
+        <div class="brand-mark" aria-hidden="true"></div>
+        <div>
+          <div style="font-size:14px;font-weight:950;line-height:1">LE PETIT CAFÉ</div>
+          <span style="color:var(--muted);font-weight:800;font-size:12px">Petit, aber mit viel Charakter.</span>
+        </div>
+      </a>
+
+      <nav class="navlinks" aria-label="Hauptnavigation">
+        <a href="index.html">Start</a>
+        <a href="speisekarte.html">Speisekarte</a>
+        <a href="reservierung.html">Reservieren</a>
+        <a href="kontakt.html">Kontakt</a>
+      </nav>
+
+      <div class="cta">
+        <a class="btn small" href="reservierung.html">Jetzt reservieren</a>
+        <button id="hamburger" class="hamburger" aria-label="Menü öffnen" aria-expanded="false">☰</button>
+      </div>
+    </div>
+
+    <div id="mobileDrawer" class="mobile-drawer hidden" data-open="false" aria-label="Mobile Navigation">
+      <a href="index.html">Start</a>
+      <a href="speisekarte.html">Speisekarte</a>
+      <a href="reservierung.html">Reservieren</a>
+      <a href="kontakt.html">Kontakt</a>
+      <a href="impressum.html">Impressum</a>
+      <a href="datenschutz.html">Datenschutz</a>
+    </div>
+  </div>
+</header>
+
+<main class="section">
+  <div class="container">
+    <div class="card panel">
+      <h1 class="h1" style="margin:0 0 10px;">Danke! 💗</h1>
+      <p class="sub">
+        Deine Reservierungsanfrage wurde gesendet. Wenn wir Rückfragen haben, melden wir uns telefonisch oder per E-Mail.
+      </p>
+      <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:14px;">
+        <a class="btn" href="index.html">Zur Startseite</a>
+        <a class="btn secondary" href="speisekarte.html">Speisekarte</a>
+      </div>
+
+      <p class="small" style="margin-top:14px;">
+        Für kurzfristige Änderungen: <a href="tel:+491638929690" style="font-weight:900;">0163 8929690</a>
+      </p>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div style="font-weight:950; letter-spacing:.3px;">LE PETIT CAFÉ – Wiesbaden</div>
+        <div class="small" style="margin-top:8px;">
+          Taunusstraße 41, 65183 Wiesbaden<br/>
+          Telefon: <a href="tel:+491638929690" style="font-weight:900;">0163 8929690</a><br/>
+          E-Mail: <a href="mailto:lepetitcafe.wiesbaden@gmail.com" style="font-weight:900;">lepetitcafe.wiesbaden@gmail.com</a>
+        </div>
+      </div>
+
+      <div>
+        <div style="font-weight:950;">Öffnungszeiten</div>
+        <div class="small" style="margin-top:8px;">
+          Mo – Do: 11:00 – 18:00<br/>
+          Fr – Sa: 11:00 – 22:00<br/>
+          So: 10:00 – 18:00
+        </div>
+      </div>
+
+      <div>
+        <div style="font-weight:950;">Rechtliches</div>
+        <div class="footer-links" style="margin-top:8px;">
+          <a href="impressum.html">Impressum</a>
+          <a href="datenschutz.html">Datenschutz</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="small" style="margin-top:18px; opacity:.85;">
+      © <span id="year"></span> Le Petit Café. Alle Rechte vorbehalten.
+    </div>
+  </div>
+</footer>
+
+<div id="cookieBanner" class="cookie">
+  <div class="container">
+    <div class="card">
+      <div style="font-weight:950;">Cookie-Hinweis</div>
+      <p>Wir verwenden nur technisch notwendige Cookies/Local-Storage, um diese Meldung zu speichern. Kein Tracking.</p>
+      <div class="cookie-actions">
+        <button id="cookieAccept" class="btn small">Okay</button>
+        <a class="btn secondary small" href="datenschutz.html">Mehr erfahren</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="assets/js/app.js" defer></script>
+</body>
+</html>
